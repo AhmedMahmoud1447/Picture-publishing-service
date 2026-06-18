@@ -1,6 +1,21 @@
 # Picture-publishing-service
 Pictures Publishing Service built with Spring Boot, PostgreSQL, and Clean Architecture. Implements Security (JWT), High-Performance Caching (Redis), and DB Versioning (Liquibase).
 
+---
+
+## 🛠 Tech Stack
+
+| Category | Technology |
+| :--- | :--- |
+| **Framework** | Spring Boot 3.x, Java 17+ |
+| **Database** | PostgreSQL |
+| **Caching** | Redis |
+| **Security** | Spring Security, JWT |
+| **Database Migration** | Liquibase |
+| **Build Tool** | Maven |
+
+---
+
 ## 🏗️ System Architecture & Data Model
 
 ### 1. High-Level Architecture Diagram
@@ -48,3 +63,22 @@ erDiagram
 
     USERS ||--o{ PICTURES : ""
 ```
+---
+## ⚙️ Prerequisites
+Ensure you have the following installed on your machine:
+
+Java 17 or higher
+
+Docker (to run PostgreSQL and Redis containers)
+
+Maven
+
+🚀 How to Run
+---
+Start Infrastructure:
+Use Docker Compose to launch the database and cache containers:
+```
+docker-compose up -d
+```
+---
+### Check Swagger for API Documentation
