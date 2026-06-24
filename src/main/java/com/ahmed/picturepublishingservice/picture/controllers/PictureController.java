@@ -35,7 +35,6 @@ public class PictureController {
 
     @GetMapping("/landing")
     public ResponseEntity<List<PictureResponse>> getLandingPictures() {
-        // 🌟 تعديل مهم: نخليه ينادي الميثود اللي بتجيب الـ Approved بس
         return ResponseEntity.ok(pictureService.getAllApprovedPicturesForLanding());
     }
 
