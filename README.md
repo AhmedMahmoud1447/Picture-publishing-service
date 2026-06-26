@@ -1,5 +1,5 @@
 # Picture-publishing-service
-Pictures Publishing Service built with Spring Boot and PostgreSQL, featuring JWT-based authentication, high-performance caching with Redis, and database versioning using Liquibase. The project follows feature-**based** architecture.
+Pictures Publishing Service built with Spring Boot and PostgreSQL, featuring JWT-based authentication, high-performance caching with Redis, and database versioning using Liquibase. The project follows feature-based architecture.
 
 ---
 
